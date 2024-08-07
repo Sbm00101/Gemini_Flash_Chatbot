@@ -34,7 +34,7 @@ def handle_submit():
 
 
 # Streamlit frontend
-st.header("SBM-Gemini-chat")
+st.header("Gemini-SBM-Chat")
 
 # Image upload section
 uploaded_image = st.file_uploader("Upload an image (optional):", type=["jpg", "jpeg", "png"])
