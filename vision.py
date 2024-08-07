@@ -26,7 +26,7 @@ def handle_submit():
         st.session_state.response = "Please upload an image and enter a question."
 
 # Streamlit frontend
-st.header("Gemini Application")
+st.header("SBM-Gemini-Chat")
 
 # Image upload section
 uploaded_image = st.file_uploader("Upload an image:", type=["jpg", "jpeg", "png"])
